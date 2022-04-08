@@ -1,3 +1,3 @@
-# Pedersen Commitment using Eliptic-Curves
+# Pedersen Commitment using Elliptic-Curves
 
-Made in collaberoation with Benjamin Kjær and Silas Nielsen 
+Made in collaberation with Benjamin Kjær and Silas Nielsen 
