@@ -3,5 +3,4 @@
 Made in collaboration with Benjamin Kjær and Silas Nielsen 
 
 ## Dependencies 
-* pycryptodome
 * ECPy 
