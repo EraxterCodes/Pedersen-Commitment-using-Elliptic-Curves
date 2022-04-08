@@ -1,8 +1,7 @@
 # uses pycryptodome, NOT pycrypto
-from Crypto.Random import random
 from ecpy.curves import Curve
+from sys import random
 
-from modules.Crypto.Util import number
 
 
 class Pedersen:
@@ -45,7 +44,7 @@ class Pedersen:
         p, g, h = self.param
 
         # Randomness of Z_p
-        r = number.getRandomRange(1, p-1)
+        r = random.randint(1, p-1)
 
         c, _ = self.create_commit(m, r)
 
