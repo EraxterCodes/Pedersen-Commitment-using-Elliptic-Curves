@@ -3,7 +3,6 @@ from ecpy.curves import Curve
 from sys import random
 
 
-
 class Pedersen:
     def __init__(self):
         self.cp = Curve.get_curve("secp256k1")
