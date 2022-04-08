@@ -2,7 +2,7 @@
 from Crypto.Random import random
 from ecpy.curves import Curve
 
-from modules.Crypto.Util import number
+from Crypto.Util import number
 
 
 class Pedersen:
