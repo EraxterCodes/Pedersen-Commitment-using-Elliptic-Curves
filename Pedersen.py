@@ -1,6 +1,6 @@
 # uses pycryptodome, NOT pycrypto
 from ecpy.curves import Curve
-from sys import random
+import random
 
 
 class Pedersen:
